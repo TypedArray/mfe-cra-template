@@ -18,9 +18,9 @@ yarn start
 start chrome
 ```
 
-| 名称                  | 描述                |
-| --------------------- | ------------------- |
-| react-app-main        | 入口                |
-| react-app-shared      | 共享模块            |
-| react-app-association | 门店预约平台-联谊会 |
-| react-app-merchant    | 门店预约平台-经销商 |
+| 名称              | 描述     |
+| ----------------- | -------- |
+| react-app-main    | 入口     |
+| react-app-shared  | 共享模块 |
+| react-app-module1 | 模块一   |
+| react-app-module2 | 模块 2   |
