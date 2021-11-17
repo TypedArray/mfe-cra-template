@@ -1,0 +1,24 @@
+{
+  "name": "micro-frontend",
+  "private": true,
+  "description": "微前端项目",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "env-cmd -e start lerna run start",
+    "build": "env-cmd -e build lerna run build",
+    "test": "lerna run test",
+    "chrome": "npx @typedarray/chrome"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "resolutions": {
+    "sanitize.css": "12.0.1"
+  },
+  "dependencies": {
+    "env-cmd": "^10.1.0"
+  }
+}

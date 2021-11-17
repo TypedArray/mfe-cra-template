@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "shared/utils": ["../../react-app-shared/src/utils"],
+      "shared/components": ["../../react-app-shared/src/components"],
+      "shared/interfaces": ["../../react-app-shared/src/interfaces"],
+      "shared/layouts": ["../../react-app-shared/src/layouts"],
+      "shared/contexts": ["../../react-app-shared/src/contexts"],
+      "shared/constants": ["../../react-app-shared/src/constants"]
+    }
+  }
+}
